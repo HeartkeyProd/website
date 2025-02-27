@@ -1,0 +1,219 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'JetBrains Mono', monospace;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    background-color: #00000; /* Cor escura de fundo */
+    position: relative;
+}
+
+header .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    background-color: #00000; /* Cor escura de fundo */
+    position: relative;
+}
+
+header .logo img {
+    height: 80px; /* Ajuste o tamanho da logo conforme necessário */
+}
+
+header .logo .logo-title {
+    height: 100px;
+    padding-left: 20px;
+}
+
+header .logo .logo-title h1 {
+    height: 10px;
+}
+
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    margin-left: 20px; /* Espaçamento entre os links */
+}
+
+header nav ul li a {
+    color: #ffffff; /* Cor azul para os links */
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+header nav ul li a:hover {
+    color: #ff003c; /* Mudança de cor ao passar o mouse */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.hero {
+    position: relative;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5; /* Deixa o vídeo mais sutil */
+}
+
+.hero h1 {
+    font-size: 3rem;
+    text-shadow: 0px 0px 10px #ff003c;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.btn {
+    background-color: #ff003c;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #00eaff;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+footer {
+    background: #111;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.game-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.game-card {
+    background: #000;
+    border-radius: 10px;
+    width: 280px;
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.game-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.game-card h3 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: #00eaff;
+}
+
+.game-card p {
+    font-size: 1rem;
+    color: #bbb;
+}
+
+.game-card .btn {
+    margin-top: 10px;
+}
+
+.contact {
+    padding: 40px;
+    background: #222;
+    color: #fff;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    color: #ff003c;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact ul li {
+    margin: 10px 0;
+}
+
+.contact a {
+    color: #00eaff;
+    text-decoration: none;
+}
+
+.contact form {
+    margin-top: 20px;
+}
+
+.contact form input,
+.contact form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background: #333;
+    color: #fff;
+}
+
+.contact form button {
+    background: #ff003c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact form button:hover {
+    background: #00eaff;
+}
+
